@@ -1,4 +1,5 @@
 ### Hi there 👋
+Welcome to the samr GitHub profile.
 
 <!--
 **samarthind/samarthind** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
