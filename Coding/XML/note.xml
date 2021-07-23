@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<note>
+		<from>Someone</from>
+		<to>You</to>
+		<message>Challenge: Do not read this note! Wait... you already read it...</message>
+	</note>
+	<!-- Want to know how to decode this note? There is a program in /Coding/PHP that can decode this note! -->
+</xml>
