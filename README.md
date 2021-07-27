@@ -2,7 +2,7 @@
 Welcome to the samr GitHub profile.
 I can do some coding. I know HTML, and I made a small program using VBScript called samrClicker, which is available on my profile repository.
 I have a website at http://samarthind.github.io/samarthind.
-You can always contact using my email, samar.thind@outlook.com. Which reminds me, I should probably go and clean up that inbox.
+You can always contact using my email, samar.thind@outlook.com.
 
 <!--
 **samarthind/samarthind** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
