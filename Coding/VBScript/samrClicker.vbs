@@ -1,14 +1,13 @@
-Start=MsgBox("Are you sure you want to start samrClicker? To exit during playing, just click Cancel.",vbYesNo+vbQuestion,"samrClicker")
-Set StartExitCode=CreateObject("wscript.shell")
-If Start=vbNo then StartExitCode.run "taskkill /f /im wscript.exe"
-FirstMain=MsgBox("1",vbOKCancel+vbInformation,"samrClicker")
-If FirstMain=vbCancel then StartExitCode.run "taskkill /f /im wscript.exe"
+Start=MsgBox("Are you sure you want to start samrClicker? Press Cancel anytime during playing to end the game.", vbYesNo+vbQuestion, "samrClicker")
+If Start=vbNo Then wscript.quit
 Count=1
+FirstMain=MsgBox("You clicked 1 time!", vbOKCancel+vbInformation, "samrClicker")
+If FirstMain=vbCancel Then wscript.quit
 
 Do
 
 Count=Count+1
-Main=MsgBox(Count,vbOKCancel+vbInformation,"samrClicker")
-If Main=vbCancel then exit Do
+Main=MsgBox("You clicked " & Count & " times!", vbOKCancel+vbInformation, "samrClicker")
+If Main=vbCancel Then exit Do
 
 Loop
