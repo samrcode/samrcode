@@ -12,7 +12,7 @@ class Main
 		Console.PrintLine("Type another number: ");
 		int y = Console.ReadLine();
 		int z = x + y;
-		while (num = 0)
+		while (num < 10000)
 		{
 			Console.WriteLine("The answer is: " + z);
 			System.Threadin.Thread.Sleep(2500);
