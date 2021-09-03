@@ -3,10 +3,8 @@
 using namespace std;
 
 int main() {
-    cout << "Hello, World!";
-    cout << "This is a test program.";
-    string x = "";
-    cout << "Input: ";
+    string x;
+    cout << "Type some input: ";
     cin >> x;
     cout << "Your input was: " + x;
 }

@@ -8,11 +8,10 @@ class IO
 		Console.WriteLine("Input and Output");
 		while (hello < 10000)
 		{
-			Console.WriteLine("Put in some input: ");
+			Console.WriteLine("Type some input: ");
 			string x = Console.ReadLine();
 			Console.WriteLine("Your input was: " + x);
 			hello++;
 		}
-		
 	}
 }
