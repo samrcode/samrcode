@@ -41,7 +41,7 @@ class calc {
 				System.out.println("Something went wrong. Try again later.");
 			}
 		} else {
-			System.out.println("Something happened. Try again later.");
+			System.out.println("Something went wrong. Try again later.");
 		}
 	}
 }
