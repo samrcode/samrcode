@@ -43,5 +43,6 @@ class Calc {
 		} else {
 			System.out.println("Something went wrong. Try again later.");
 		}
+		input.close();
 	}
 }
