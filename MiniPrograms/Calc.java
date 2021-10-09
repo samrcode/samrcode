@@ -1,3 +1,7 @@
+/*
+Java Calculator by samrcode on GitHub
+*/
+
 import java.util.Scanner;
 
 class Calc {

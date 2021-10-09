@@ -1,3 +1,7 @@
+/*
+C# Calculator
+*/
+
 using System;
 
 class Calculator
@@ -6,13 +10,18 @@ class Calculator
 	{
 		Console.WriteLine("Calculator");
 		Console.WriteLine("Type an operator: ");
+		Console.WriteLine("[1] Addition");
+		Console.WriteLine("[2] Subtraction");
+		Console.WriteLine("[3] Multiplication");
+		Console.WriteLine("[4] Division");
 		string op = Console.ReadLine();
 		Console.WriteLine("Type a number: ");
 		int x = Convert.ToInt32(Console.ReadLine());
 		Console.WriteLine("Type another number: ");
 		int y = Convert.ToInt32(Console.ReadLine());
-		if (op == "+")
+		if (op == "1")
 		{
+			// Addition
 			try
 			{
 				int z = x + y;
@@ -23,8 +32,9 @@ class Calculator
 				Console.WriteLine("Something went wrong.");
 			}
 		}
-		else if (op == "-")
+		else if (op == "2")
 		{
+			// Subtraction
 			try
 			{
 				int z = x - y;
@@ -35,8 +45,9 @@ class Calculator
 				Console.WriteLine("Something went wrong.");
 			}
 		}
-		else if (op == "*")
+		else if (op == "3")
 		{
+			// Multiplication
 			try
 			{
 				int z = x * y;
@@ -47,8 +58,9 @@ class Calculator
 				Console.WriteLine("Something went wrong.");
 			}
 		}
-		else if (op == "/")
+		else if (op == "4")
 		{
+			// Division
 			try
 			{
 				int z = x / y;
@@ -61,6 +73,7 @@ class Calculator
 		}
 		else
 		{
+			// Error
 			Console.WriteLine("Something went wrong.");
 		}
 	}
