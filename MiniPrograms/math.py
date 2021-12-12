@@ -5,7 +5,7 @@
 def math(op, userNo, num1, num2, message1, message2, message3):
 	# Checks if there is a user or not
 	if int(userNo) == 1:
-		# if there is a user
+		# if there is no user
 		if int(op) == 1:
 			# addition
 			z = int(num1) + int(num2)
@@ -26,7 +26,7 @@ def math(op, userNo, num1, num2, message1, message2, message3):
 			# error
 			print("Uh oh")
 	elif int(userNo) == 0:
-		# if there is no user
+		# if there is a user
 		if int(op) == 1:
 			# addition
 			print(str(message1))
