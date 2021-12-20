@@ -1,5 +1,7 @@
 println("E!")
+# main code is at the end of the file
 
+# Test Functions
 # >- Compund Expressions -<
 function compound()
     z = begin
@@ -65,6 +67,7 @@ function reval()
     # -> 10
 end
 
+# main
 println("Choose an option: ")
 println("[1] Compound Expressions")
 println("[2] Functions && Conditional Evaluation")
