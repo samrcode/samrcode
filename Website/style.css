@@ -1,3 +1,17 @@
 h1, h2, h3, h4, h5, h6, p, a, li {
 	font-family: Calibri;
 }
+
+/* custom bullets */
+ul {
+    margin: .5em 0 1.25em;
+    padding: 0 0px;
+    list-style: none;
+}
+ul li {
+    background: url("bullet.png") no-repeat 2px .25em;
+    margin: 0;
+    padding: 0 0 3px 16px;
+    margin-bottom: 3px;
+    line-height: 1.4em;
+}

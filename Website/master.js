@@ -7,7 +7,7 @@ function more() {
     // when the user presses the "More" button on the homepage
     if (x > ids.length) {
         // too many "More" presses? give them something great
-        window.location = "https://www.youtube.com/embed/dQw4w9WgXcQ";
+        window.location.replace("https://www.youtube.com/embed/dQw4w9WgXcQ");
     }
     document.getElementById(ids[x]).style = "display: block; visibilty: visible;";
     x++;

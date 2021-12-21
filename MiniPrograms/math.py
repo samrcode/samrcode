@@ -2,9 +2,9 @@
 # a calculator
 
 # math function: for making math happen in programs other than this one
-def math(op, userNo, num1, num2, message1, message2, message3):
+def math(op, user_no, num1, num2, message1, message2, message3):
 	# Checks if there is a user or not
-	if int(userNo) == 1:
+	if int(user_no) == 1:
 		# if there is no user
 		if int(op) == 1:
 			# addition
@@ -25,7 +25,7 @@ def math(op, userNo, num1, num2, message1, message2, message3):
 		else:
 			# error
 			print("Uh oh")
-	elif int(userNo) == 0:
+	elif int(user_no) == 0:
 		# if there is a user
 		if int(op) == 1:
 			# addition
