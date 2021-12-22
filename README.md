@@ -1,5 +1,6 @@
 ### Hello there!
 Welcome to samr's GitHub.
+I am known as samr, samrcode, or by my name, Samar.
 
 #### About Me
 I am from Canada, and I just like coding recreationally.
