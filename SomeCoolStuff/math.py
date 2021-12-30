@@ -66,13 +66,6 @@ def math(op, user_no, num1, num2, message1, message2, message3):
 		# error
 		print("Uh oh")
 
-# Quick Print: Just for personal use to get messages printed quickly
-def qpr(message):
-	if int(message) == 1:
-		return "Type a number: "
-	elif int(message) == 2:
-		return "The sum is: "
-
 # Pause: Makes a pause in the code
 def pause():
 	print("Press Enter to continue... ")
@@ -89,19 +82,19 @@ print("5. Exit")
 opt = input()
 if int(opt) == 1:
 	# if operation selected is addition
-	math(1, 0, 0, 0, qpr(1), qpr(1), qpr(2))
+	math(1, 0, 0, 0, "Type a number: ", "Type a number: ", "The sum is: ")
 	pause()
 elif int(opt) == 2:
 	# if operation selected is subtraction
-	math(2, 0, 0, 0, qpr(1), qpr(1), qpr(2))
+	math(2, 0, 0, 0, "Type a number: ", "Type a number: ", "The sum is: ")
 	pause()
 elif int(opt) == 3:
 	#  if operation selected is multiplication
-	math(3, 0, 0, 0, qpr(1), qpr(1), qpr(2))
+	math(3, 0, 0, 0, "Type a number: ", "Type a number: ", "The sum is: ")
 	pause()
 elif int(opt) == 4:
 	# if operation selected is division
-	math(4, 0, 0, 0, qpr(1), qpr(1), qpr(2))
+	math(4, 0, 0, 0, "Type a number: ", "Type a number: ", "The sum is: ")
 	pause()
 elif int(opt) == 5:
 	# if option selected to quit

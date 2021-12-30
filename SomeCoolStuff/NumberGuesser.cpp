@@ -9,8 +9,7 @@ Also avaiable on Replit at https://replit.com/@samrcode/Number-Guesser
 
 using namespace std;
 
-int main()
-{
+int main() {
     srand(time(NULL));
 
     // Make Variables
@@ -27,7 +26,7 @@ int main()
     cout << "---" << endl;
 
     // Input
-    while (secretNum != guess && !outOfGuesses){
+    while (secretNum != guess && !outOfGuesses) {
         if (guessCount < guessLimit) {
             cout << "Enter your guess: ";
             cin >> guess;
