@@ -1,6 +1,6 @@
 # samrcode
 List of stuff.
-- [About Me](about)
-- [Lorem Ipsum](loremipsum)
-- [Things I Made](mystuff)
+- [About Me](pages/about)
+- [Lorem Ipsum](pages/loremipsum)
+- [Things I Made](pages/mystuff)
 - [Me on Replit](https://replit.com/@samrcode)
