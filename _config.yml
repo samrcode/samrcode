@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
 include:
   - index.md
-  - Pages
+  - pages
   - README.md
