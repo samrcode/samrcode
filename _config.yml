@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+include:
+  - main.md
+  - Pages
